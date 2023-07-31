@@ -1,54 +1,62 @@
 #include <iostream>
 #include <queue>
+#include <algorithm>
 using namespace std;
-#define min(A, B) A > B ? B : A
 
-typedef long long ll;
+#define MIN(x, y) ((x) < (y) ? (x) : (y))
 
-int main()
-{
-    priority_queue<ll, vector<ll>, greater<ll>> pqueue;
+long long N;
+long double X;
+priority_queue<long double, vector<long double>, greater<long double>> pq;
 
-    ll N, X;
-    cin >> N;
-    cin >> X;
+int main(int argc, char* argv[]) {
+    cin.tie(0); cout.tie(0); ios_base::sync_with_stdio(0);
+    cin >> N >> X;
 
-    for (ll i = 0; i < N; i++)
-    {
-        ll temp;
+    for (int i = 0; i < N; i++) {
+        long double temp;
         cin >> temp;
-        pqueue.push(temp);
+        pq.push(temp);
     }
 
-    ll count = 0;
-    while (pqueue.size() >= 2)
-    {
-        ll first, second, result;
-        first = pqueue.top();
-        pqueue.pop();
-        second = pqueue.top();
-        pqueue.pop();
+    int result = 0;
 
-        result = min(first + second + (X / 2), X);
+    while (!pq.empty()) {
+        long double first = pq.top();
+        pq.pop();
 
-        if (result >= X)
-        {
-            count++;
+        cout << "first: " << first << endl;
+
+        if (first >= X) {
+            result++;
+            continue;
         }
-        else
-        {
-            pqueue.push(result);
+
+        if (pq.empty()) break;
+        
+        long double second = pq.top();
+        pq.pop();
+
+        cout << "second: " << second << endl;
+
+        if (second >= X) {
+            result++;
+            continue;
+        }
+
+        long double new_container = MIN(first + second + X / 2.0, X);
+
+        cout << "New one: " << new_container << endl;
+
+        if (new_container >= X) {
+            result++;
+        }
+        else {
+            pq.push(new_container);
         }
     }
-    if (!pqueue.empty())
-    {
-        ll last = pqueue.top();
-        pqueue.pop();
 
-        if (last >= X) count++;
-    }
-
-    cout << count;
+    cout << result;
 
     return 0;
 }
