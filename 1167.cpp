@@ -1,106 +1,77 @@
 #include <iostream>
-#include <algorithm>
 #include <vector>
 #include <stack>
+#include <map>
 using namespace std;
 
-vector<vector<pair<int, int>>> graph;
-vector<bool> visited;
 int V;
-long long curr_distance, max_distance;
+vector<vector<pair<int, int>>> adj_list_graph;
+vector<int> sizes;
+vector<bool> visited;
 
-inline int searchRelation(int begin, int end) {
-    int result = 0;
-    int left = 0, right = graph[begin].size();
+inline pair<int, int> DFS(int s) {
+    stack<int> stk;
+    map<int, int> distances;    // 어떤 정점 v를 방문했을 때 이동한 거리 d를 v -> d로 매핑
+    int max_distance = 0, max_vertex;
 
-    while (left <= right) {
-        int mid = (left + right) / 2;
+    distances[s] = 0;
+    stk.push(s);
 
-        if (graph[begin][mid].first > end) {
-            right = mid - 1;
-        }
-        else if (graph[begin][mid].first < end) {
-            left = mid + 1;
-        }
-        else {
-            result = graph[begin][mid].second;
-            break;
-        }
-    }
+    while (!stk.empty()) {
+        int curr_vertex = stk.top();
+        stk.pop();
 
-    return result;
-}
+        visited[curr_vertex] = true;
 
-inline int DFS(int vertex) {
-    max_distance = 0;
-    curr_distance = 0;
-    
-    int result_node;
+        for (int i = 0; i < sizes[curr_vertex]; i++) {
+            int next_vertex = adj_list_graph[curr_vertex][i].first;
+            int dist = adj_list_graph[curr_vertex][i].second;
+            
+            if (!visited[next_vertex]) {
+                distances[next_vertex] = distances[curr_vertex] + dist;
+                stk.push(next_vertex);
 
-    stack<int> Vstack;
-    stack<int> recent_distances;
-
-    Vstack.push(vertex);
-    visited[vertex] = true;
-    while (!Vstack.empty()) {
-        int curr = Vstack.top();
-
-        bool added = false;
-        for (int neighbor = 1; neighbor <= V; neighbor++) {
-            if (!visited[neighbor] && (dist = searchRelation(curr, neighbor)) > 0) {
-                added = true;
-                visited[neighbor] = true;
-                Vstack.push(neighbor);
-
-                curr_distance += dist;
-                recent_distances.push(dist);
-
-                if (curr_distance > max_distance) {
-                    max_distance = curr_distance;
-                    result_node = neighbor;
+                if (distances[next_vertex] > max_distance) {
+                    max_distance = distances[next_vertex];
+                    max_vertex = next_vertex;
                 }
-                
-                break;
             }
         }
-
-        if (!added) Vstack.pop();
     }
 
-    return result_node;
+    return {max_vertex, max_distance};
 }
 
 int main(int argc, char* argv[]) {
     cin.tie(0); cout.tie(0); ios_base::sync_with_stdio(0);
-    
     cin >> V;
-    graph.resize(V + 1);
+
     visited.resize(V + 1, false);
+    adj_list_graph.resize(V + 1);
+    sizes.resize(V + 1);
 
-    for (int _ = 1; _ <= V; _++) {
-        int begin_v, end_v, distance;
-        
-        cin >> begin_v;
+    for (int _ = 0; _ < V; _++) {
+        int s, e, dist;
+        cin >> s;
+
+        int size = 0;
         while (1) {
-            cin >> end_v;
-            if (end_v == -1) break;
-            cin >> distance;
+            cin >> e;
+            if (e == -1) break;
+            cin >> dist;
+            size++;
 
-            graph[begin_v].push_back({end_v, distance});
+            adj_list_graph[s].push_back({e, dist});
         }
 
-        sort(graph[begin_v].begin(), graph[begin_v].end());
+        sizes[s] = size;
     }
-
-    long long result = 0;
-    for (int vertex = 1; vertex <= V; vertex++) {
-        if (!visited[vertex]) {
-            long long temp = DFS(vertex);
-            if (temp > result) result = temp;
-        }
-    }
-
-    cout << result;
     
+    pair<int, int> result = DFS(1);
+    visited.assign(V + 1, false);
+    result = DFS(result.first);
+
+    cout << result.second;
+
     return 0;
 }
