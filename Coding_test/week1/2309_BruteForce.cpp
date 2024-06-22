@@ -1,5 +1,5 @@
 /**
- * @file 2309.cpp
+ * @file 2309_BruteForce.cpp
  * @brief 00:04:26
  * @date 2024-06-22
  * 
