@@ -3,21 +3,22 @@ using namespace std;
 
 vector<string> split(string input, char delim) {
     istringstream iss(input);
+    vector<string> res;
     string token;
-    vector<string> tokens;
 
     while (getline(iss, token, delim))
-        tokens.push_back(token);
-    
-    return tokens;
+        res.push_back(token);
+
+    return res;
 }
 
 int main(int argc, char* argv[]) {
-    string example = "first second third fourth fiveth";
-    vector<string> tokens = split(example, ' ');
-    
-    for (string token : tokens)
-        cout << token << '\n';
-    
+    string input = "first second third fourth fiveth";
+
+    vector<string> res = split(input, ' ');
+
+    for (string token : res)
+        cout << token << endl;
+
     return 0;
 }
