@@ -1,7 +1,6 @@
 /**
  * @file 2309_Recursive.cpp
  * @brief 00:04:03
- * @version 0.1
  * @date 2024-06-22
  * 
  * @copyright Copyright (c) 2024
