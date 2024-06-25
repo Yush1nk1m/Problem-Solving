@@ -1,3 +1,13 @@
+/**
+ * @file 3986_StackOpt.cpp
+ * @brief 
+ * @date 2024-06-25
+ * 
+ * @copyright Copyright (c) 2024
+ * 스택 상단에 있는 문자와 새로 삽입할 문자를 비교한다.
+ * 일치할 경우엔 겹치는 선분 없이 페어가 형성된 것이므로 스택에서 원소를 제거한다.
+ * 이런 식으로 반복한 이후 스택에 원소가 남아 있으면 겹치는 선분이 있다는 의미이다.
+ */
 #include <bits/stdc++.h>
 using namespace std;
 
