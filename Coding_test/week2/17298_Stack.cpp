@@ -1,3 +1,11 @@
+/**
+ * @file 17298_Stack.cpp
+ * @brief 00:25:33
+ * @date 2024-06-28
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
 #include <bits/stdc++.h>
 using namespace std;
 
