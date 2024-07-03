@@ -1,3 +1,11 @@
+/**
+ * @file 14391_Bitmasking.cpp
+ * @brief 01:25:20
+ * @date 2024-07-03
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
 #include <bits/stdc++.h>
 using namespace std;
 
