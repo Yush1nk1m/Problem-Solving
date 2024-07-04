@@ -21,7 +21,7 @@ class Problem {
         }
 };
 
-ll N, cup;
+ll N, result;
 vector<Problem> problems;
 priority_queue<ll, vector<ll>, greater<ll>> pq;
 
@@ -37,17 +37,16 @@ int main(int argc, char* argv[]) {
     sort(problems.begin(), problems.end());
 
     for (Problem& p : problems) {
-        if (p.deadline <= pq.size())
-            pq.pop();
         pq.push(p.ramen);
+        result += p.ramen;
+
+        if (p.deadline < pq.size()) {
+            result -= pq.top();
+            pq.pop();
+        }
     }
 
-    while (pq.size()) {
-        cup += pq.top();
-        pq.pop();
-    }
-
-    cout << cup;
+    cout << result;
 
     return 0;
 }
