@@ -1,61 +1,38 @@
-#include <iostream>
-#include <queue>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
+typedef long long ll;
 
-#define MIN(x, y) ((x) < (y) ? (x) : (y))
-
-long long N;
-long double X;
-priority_queue<long double, vector<long double>, greater<long double>> pq;
+ll N, X, result;
+vector<ll> C;
 
 int main(int argc, char* argv[]) {
-    cin.tie(0); cout.tie(0); ios_base::sync_with_stdio(0);
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
     cin >> N >> X;
-
-    for (int i = 0; i < N; i++) {
-        long double temp;
-        cin >> temp;
-        pq.push(temp);
-    }
-
-    int result = 0;
-
-    while (!pq.empty()) {
-        long double first = pq.top();
-        pq.pop();
-
-        cout << "first: " << first << endl;
-
-        if (first >= X) {
-            result++;
-            continue;
-        }
-
-        if (pq.empty()) break;
+    for (int _ = 0; _ < N; _++) {
+        ll c;
+        cin >> c;
         
-        long double second = pq.top();
-        pq.pop();
+        if (c >= X) result++;
+        else C.push_back(c);
+    }
+    sort(C.begin(), C.end());
 
-        cout << "second: " << second << endl;
-
-        if (second >= X) {
+    int l = 0, r = C.size() - 1, remain = 0;
+    while (l <= r) {
+        if (l < r && (C[l] + C[r]) * 2 >= X) {
             result++;
-            continue;
-        }
-
-        long double new_container = MIN(first + second + X / 2.0, X);
-
-        cout << "New one: " << new_container << endl;
-
-        if (new_container >= X) {
-            result++;
-        }
-        else {
-            pq.push(new_container);
+            l++;
+            r--;
+        } else {
+            l++;
+            remain++;
         }
     }
 
+    result += (remain / 3);
     cout << result;
 
     return 0;
