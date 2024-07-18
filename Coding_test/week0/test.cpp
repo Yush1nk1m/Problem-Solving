@@ -2,17 +2,11 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-    vector<int> v = { 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 };
-    int number;
+    map<pair<int, int>, int> m;
+    m[make_pair(0, 0)] = 0;
 
-    while (cin >> number) {
-        if (number == -1) break;
-
-        cout << "RESULT OF FINDING NUMBER " << number << endl;
-        cout << "Count based on lower_bound: " << lower_bound(v.begin(), v.end(), number) - v.begin() << endl;
-        cout << "Count based on upper_bound: " << upper_bound(v.begin(), v.end(), number) - v.begin() << endl;
-        cout << "------------------------------------------------------------------" << endl;
-    }
+    pair<int, int> key = make_pair(0, 0);
+    cout << (m.find(make_pair(0, 0)) != m.end());
 
     return 0;
 }
