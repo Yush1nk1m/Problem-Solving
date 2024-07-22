@@ -1,3 +1,11 @@
+/**
+ * @file 1480_DP_Bitmasking.cpp
+ * @brief 01:07:39
+ * @date 2024-07-22
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
 #include <bits/stdc++.h>
 using namespace std;
 
