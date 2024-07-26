@@ -18,11 +18,6 @@ class Cost {
         int money1;
         int cost2;
         int money2;
-        bool operator<(const Cost& c) {
-            if (cost1 == c.cost1)
-                return (cost2 < c.cost2);
-            return (cost1 < c.cost1);
-        }
 };
 
 int N, K;
