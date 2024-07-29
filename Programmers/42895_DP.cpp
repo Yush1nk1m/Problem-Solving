@@ -1,5 +1,5 @@
 /**
- * @file 42895_Backtracking.cpp
+ * @file 42895_DP.cpp
  * @brief 프로그래머스 "N으로 만들기"
  * @date 2024-07-29
  * 
@@ -13,6 +13,7 @@ using namespace std;
 
 int target;
 int numarr[9];
+map<int, int> cache[9];
 
 int DFS(int total, int depth);
 
@@ -43,6 +44,9 @@ int DFS(int total, int depth) {
     if (total == target)
         return depth;
     
+    if (cache[depth].find(total) != cache[depth].end())
+        return cache[depth][total];
+    
     int ret = INF;
     for (int i = 1; i <= 8; i++) {
         ret = min(ret, DFS(total + numarr[i], depth + i));
@@ -52,5 +56,7 @@ int DFS(int total, int depth) {
         ret = min(ret, DFS(total / numarr[i], depth + i));
         ret = min(ret, DFS(numarr[i] / total, depth + i));
     }
+    
+    cache[depth][total] = ret;
     return ret;
 }
