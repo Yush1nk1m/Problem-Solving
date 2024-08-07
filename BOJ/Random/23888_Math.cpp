@@ -1,3 +1,11 @@
+/**
+ * @file 23888_Math.cpp
+ * @brief 01:00:00
+ * @date 2024-08-07
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
