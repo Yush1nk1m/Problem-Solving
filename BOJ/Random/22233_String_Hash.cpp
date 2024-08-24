@@ -1,3 +1,11 @@
+/**
+ * @file 22233_String_Hash.cpp
+ * @brief 00:16:04
+ * @date 2024-08-24
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
 #include <bits/stdc++.h>
 using namespace std;
 
