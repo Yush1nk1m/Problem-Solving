@@ -20,10 +20,10 @@ int main(int argc, char* argv[]) {
     cin.tie(NULL);
     cout.tie(NULL);
 
-    cin >> N;
-
     for (int i = 0; i <= 9; i++)
         DFS(i);
+
+    cin >> N;
 
     if (v.size() < N)
         cout << -1;
