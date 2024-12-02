@@ -1,3 +1,11 @@
+/**
+ * @file 1305_KMP.cpp
+ * @brief 00:25:01
+ * @date 2024-12-01
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
 #include <bits/stdc++.h>
 using namespace std;
 
