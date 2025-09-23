@@ -1,0 +1,8 @@
+@startuml
+
+array [
+  [ a , b , c , d , e ]
+  [ f , g , h , i , j ]
+]
+
+@enduml
