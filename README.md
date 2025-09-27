@@ -4,19 +4,15 @@ PS와 관련한 학습 내용, 문제 풀이를 기록해 놓는 리포지토리
 
 ## BOJ
 
-백준 플랫폼에서 해결한 문제들의 풀이를 기록했습니다. (C++)
+[백준](https://www.acmicpc.net/) 플랫폼에서 해결한 문제들의 풀이를 기록했습니다. (C++)
 
 ## BOJ_JAVA
 
-백준 플랫폼에서 해결한 문제들의 풀이를 기록했습니다. (Java)
+[백준](https://www.acmicpc.net/) 플랫폼에서 해결한 문제들의 풀이를 기록했습니다. (Java)
 
 ## Codeforces
 
-코드포스 플랫폼에서 해결한 문제들의 풀이를 기록했습니다.
-
-## Coding_test
-
-인프런 '10주 완성 C++ 코딩테스트' 강의를 수강하고 주차별 문제 풀이를 기록했습니다.
+[코드포스](https://codeforces.com/) 플랫폼에서 해결한 문제들의 풀이를 기록했습니다.
 
 ## Do_it_algorithm
 
@@ -24,12 +20,12 @@ PS와 관련한 학습 내용, 문제 풀이를 기록해 놓는 리포지토리
 
 ## LeetCode
 
-리트코드 플랫폼에서 해결한 문제들의 풀이를 기록했습니다.
+[리트코드](https://leetcode.com/problemset/) 플랫폼에서 해결한 문제들의 풀이를 기록했습니다.
 
 ## Programmers
 
-프로그래머스 플랫폼에서 해결한 문제들의 풀이를 기록했습니다.
+[프로그래머스](https://programmers.co.kr/) 플랫폼에서 해결한 문제들의 풀이를 기록했습니다.
 
 ## SWEA
 
-삼성 S/W Expert Academy 플랫폼에서 해결한 문제들의 풀이를 기록했습니다.
+[삼성 S/W Expert Academy](https://swexpertacademy.com/main/main.do) 플랫폼에서 해결한 문제들의 풀이를 기록했습니다.
