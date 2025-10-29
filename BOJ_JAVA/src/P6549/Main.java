@@ -1,7 +1,6 @@
-package P1725;
+package P6549;
 
 import java.io.*;
-import java.util.*;
 
 public class Main {
 
@@ -37,9 +36,9 @@ public class Main {
                 tree[i] = new Node(Long.MAX_VALUE, 0);
         }
 
-        public void initialize() throws IOException {
+        public void initialize() {
             for (int i = 0; i < length; i++) {
-                tree[ptr + i].value = Long.parseLong(br.readLine());
+                tree[ptr + i].value = Long.parseLong(tokens[i + 1]);
                 tree[ptr + i].index = i;
             }
             for (int i = ptr - 1; i > 0; i--)
@@ -73,14 +72,22 @@ public class Main {
     }
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    static String[] tokens;
+    static StringBuilder sb = new StringBuilder();
 
     static int N;
     static Tree tree;
 
     public static void main(String[] args) throws IOException {
-        N = Integer.parseInt(br.readLine());
-        tree = new Tree(N);
-        tree.initialize();
-        System.out.println(tree.solve(0, N - 1));
+        while (true) {
+            tokens = br.readLine().split(" ");
+            if (tokens[0].equals("0"))
+                break;
+            N = Integer.parseInt(tokens[0]);
+            tree = new Tree(N);
+            tree.initialize();
+            sb.append(tree.solve(0, N - 1)).append('\n');
+        }
+        System.out.println(sb);
     }
 }
