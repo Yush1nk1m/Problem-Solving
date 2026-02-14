@@ -3,7 +3,7 @@ package P33561;
 import java.io.*;
 import java.util.*;
 
-public class Main2 {
+public class Main_Optimized {
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static String[] tokens;
