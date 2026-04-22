@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ddd313f-6531-4cb1-ba8a-415b20f830e6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BOJ_JAVA/src/P1311/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BOJ_JAVA/src/P19238/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BOJ_JAVA/src/P20188/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BOJ_JAVA/src/P21611/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BOJ_JAVA/src/P2320/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BOJ_JAVA/src/P23289/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Codeforces.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Global-Round-27/A.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Global-Round-27/B.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Global-Round-27/C.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Global-Round-27/D.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Global-Round-27/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1053/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1053/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1053/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1053/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1053/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1053/Round-1053.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1053/src/A/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1053/src/B/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1053/src/C/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/.idea/Round-1055.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/A/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/B/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/C/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/D/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/D/Simulate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/Round-1055.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/A/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/B/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/C/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/D/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/D/Simulate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/Round-1055.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-979/A.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-979/B.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-979/C.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-979/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-981/A.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-981/B.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Round-981/a.out" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Yush1nk1m"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Yush1nk1m/Problem-Solving.git",
+    "accountId": "a6c6a4d6-f6ab-4e6b-afa6-d134b71dd8ac"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3CfhNa10NSvJLSDc9Zk05Fz1Kjb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Educational.R189.B.Main.executor": "Run",
+    "Application.Educational.R189.C.Main.executor": "Run",
+    "Application.Educational.R189.D.Main.executor": "Run",
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/yushinkim/Study/Problem-Solving/Codeforces/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Educational.R189.D.Main">
+    <configuration name="Educational.R189.B.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Educational.R189.B.Main" />
+      <module name="Codeforces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Educational.R189.B.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Educational.R189.C.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Educational.R189.C.Main" />
+      <module name="Codeforces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Educational.R189.C.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Educational.R189.D.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Educational.R189.D.Main" />
+      <module name="Codeforces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Educational.R189.D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Educational.R189.A.Main" />
+      <module name="Codeforces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Educational.R189.A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Educational.R189.D.Main" />
+        <item itemvalue="Application.Educational.R189.C.Main" />
+        <item itemvalue="Application.Educational.R189.B.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ddd313f-6531-4cb1-ba8a-415b20f830e6" name="Changes" comment="" />
+      <created>1776782493162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776782493162</updated>
+      <workItem from="1776782494118" duration="6263000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
