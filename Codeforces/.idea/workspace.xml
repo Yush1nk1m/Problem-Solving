@@ -5,56 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ddd313f-6531-4cb1-ba8a-415b20f830e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../BOJ_JAVA/src/P1311/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BOJ_JAVA/src/P19238/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BOJ_JAVA/src/P20188/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BOJ_JAVA/src/P21611/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BOJ_JAVA/src/P2320/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BOJ_JAVA/src/P23289/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Codeforces.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Global-Round-27/A.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Global-Round-27/B.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Global-Round-27/C.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Global-Round-27/D.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Global-Round-27/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1053/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1053/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1053/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1053/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1053/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1053/Round-1053.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1053/src/A/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1053/src/B/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1053/src/C/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/.idea/Round-1055.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/A/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/B/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/C/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/D/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/D/Simulate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/Round-1055.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/A/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/B/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/C/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/D/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/D/Simulate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-1055/out/production/Round-1055/Round-1055.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-979/A.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-979/B.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-979/C.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-979/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-981/A.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-981/B.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Round-981/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,21 +22,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Yush1nk1m"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Yush1nk1m&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Yush1nk1m/Problem-Solving.git",
-    "accountId": "a6c6a4d6-f6ab-4e6b-afa6-d134b71dd8ac"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Yush1nk1m/Problem-Solving.git&quot;,
+    &quot;accountId&quot;: &quot;a6c6a4d6-f6ab-4e6b-afa6-d134b71dd8ac&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3CfhNa10NSvJLSDc9Zk05Fz1Kjb" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -95,25 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Educational.R189.B.Main.executor": "Run",
-    "Application.Educational.R189.C.Main.executor": "Run",
-    "Application.Educational.R189.D.Main.executor": "Run",
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/yushinkim/Study/Problem-Solving/Codeforces/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Educational.R189.B.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Educational.R189.C.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Educational.R189.D.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/yushinkim/Study/Problem-Solving/Codeforces/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Educational.R189.D.Main">
     <configuration name="Educational.R189.B.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Educational.R189.B.Main" />
@@ -192,6 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1776782493162</updated>
       <workItem from="1776782494118" duration="6263000" />
+      <workItem from="1776854705799" duration="123000" />
     </task>
     <servers />
   </component>

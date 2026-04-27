@@ -1,41 +1,21 @@
-class Node implements Comparable<Node> {
-    int value, index;
-    
-    public Node(int value, int index) {
-        this.value = value;
-        this.index = index;
-    }
-
-    public int compareTo(Node other) {
-        return value - other.value;
-    }
-
-    public int getValue() {
-        return value;
-    }
-
-    public int getIndex() {
-        return index;
-    }
-}
-
 class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        List<Node> list = new ArrayList<>();
-        for (int i = 0; i < nums.length; i++)
-            list.add(new Node(nums[i], i));
-        Collections.sort(list);
 
-        int i = 0, j = nums.length - 1;
-        while (i < j) {
-            int sum = list.get(i).getValue() + list.get(j).getValue();
-            if (sum > target)
-                j--;
-            else if (sum < target)
-                i++;
-            else
-                break;
+    Map<Integer, List<Integer>> map = new HashMap<>();
+
+    public int[] twoSum(int[] nums, int target) {
+        for (int i = 0; i < nums.length; ++i) {
+            map.putIfAbsent(nums[i], new ArrayList<>());
+            map.get(nums[i]).add(i);
         }
-        return new int[]{list.get(i).getIndex(), list.get(j).getIndex()};
+
+        for (int i = 0; i < nums.length; ++i)
+            if (map.containsKey(target - nums[i])) {
+                int l = map.get(nums[i]).get(0);
+                int r = map.get(target - nums[i]).get(map.get(target - nums[i]).size() - 1);
+                if (l != r)
+                    return new int[]{ l, r };
+            }
+        
+        return new int[]{ 0, 0 };
     }
 }
